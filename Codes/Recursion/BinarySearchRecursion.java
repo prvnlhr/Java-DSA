@@ -11,6 +11,7 @@ class BinarySearchRecursion {
 		int ei=arr.length-1;
 		return searchIndex( arr , si , ei , num);
 	}
+	
 	public static int searchIndex(int[] arr, int si, int ei ,int num) {
 
 		if(si>ei) {
